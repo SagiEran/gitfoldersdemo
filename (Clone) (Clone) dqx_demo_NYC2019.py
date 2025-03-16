@@ -70,7 +70,7 @@ display(checks_file)
 
 # COMMAND ----------
 
-"""
+
 from databricks.labs.dqx.profiler.profiler import DQProfiler
 from databricks.labs.dqx.profiler.generator import DQGenerator
 from databricks.labs.dqx.profiler.dlt_generator import DQDltGenerator
@@ -107,7 +107,7 @@ dq_engine = DQEngine(ws)
 dq_engine.save_checks_in_workspace_file(checks, workspace_path=checks_file)
 
 display(checks_file)
-"""
+
 
 
 # COMMAND ----------
